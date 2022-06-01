@@ -102,9 +102,6 @@ async function Validate_Test_Object(param) {
 }
 
 async function Test_search_test_object() {
-  if (true) {
-    return;
-  }
   await click(l("Home"));
   await click(l("[aria-invalid='false']"));
   await type(l("[aria-invalid='false']"), randomValue);
